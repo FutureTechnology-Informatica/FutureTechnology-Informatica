@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Future Task Manager
+GenericName=Monitor de Desempenho
+Comment=Monitor de recursos do sistema da FutureTechnology
+Exec=future-task-manager
+Icon=future-task-manager
+Terminal=false
+Type=Application
+Categories=System;Monitor;
+Keywords=future;technology;cpu;memoria;disco;rede;desempenho;tarefas;

@@ -1,0 +1,10 @@
+Format: https://debian.org
+Upstream-Name: future-task-manager
+Upstream-Contact: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Source: https://github.com
+
+Files: *
+Copyright: 2026 Paulo Roberto Jentsch / Future Technology Informatica
+License: GPL-3+
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in '/usr/share/common-licenses/GPL-3'.

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 23 Nov 2026 23:46:00 -0300
+Source: future-task-manager
+Binary: future-task-manager future-task-manager-dbgsym
+Architecture: amd64
+Version: 1.1.0-1
+Distribution: trixie
+Urgency: medium
+Maintainer: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Changed-By: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Description:
+ future-task-manager - Future Task Manager - System Performance Monitor
+Changes:
+ future-task-manager (1.1.0-1) unstable; urgency=medium
+ .
+   * Release v1.1.0: suporte multi-linguagem (PT-BR, EN, ES), deteccao USB em tempo real (Hot-Plug) e suporte multi-arquitetura.
+Checksums-Sha1:
+ e4744a832dfb19141d2e040c0af8fe5c43accfa4 1084216 future-task-manager-dbgsym_1.1.0-1_amd64.deb
+ 33a56e62a9da5bbb0fa52be9ef38f81e97dcdefc 11463 future-task-manager_1.1.0-1_amd64.buildinfo
+ 89305121e875eadbda7f959a8281ab4db084af82 75080 future-task-manager_1.1.0-1_amd64.deb
+Checksums-Sha256:
+ 188423281146089bfc043c29b92dd25c5cb9917a2fdda9b27e21dac9cd7f1fcd 1084216 future-task-manager-dbgsym_1.1.0-1_amd64.deb
+ 1cf90a78e9515b4e933dc3069abf353d641a1757eb4dffe90ca9aaa6f63b4745 11463 future-task-manager_1.1.0-1_amd64.buildinfo
+ 23762735c320656bf21e6ba0361c911e47764c6545b60ddfcd550b42d42593f3 75080 future-task-manager_1.1.0-1_amd64.deb
+Files:
+ 7ff4f0bf664393988c0ced9bdefa2555 1084216 debug optional future-task-manager-dbgsym_1.1.0-1_amd64.deb
+ 1f590587fc64d17d08d84261c1012d5d 11463 utils optional future-task-manager_1.1.0-1_amd64.buildinfo
+ 0e7d7b41e85707e19694db82eb853692 75080 utils optional future-task-manager_1.1.0-1_amd64.deb

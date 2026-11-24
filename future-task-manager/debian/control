@@ -1,0 +1,15 @@
+Source: future-task-manager
+Section: utils
+Priority: optional
+Maintainer: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, ninja-build, qt6-base-dev, qt6-charts-dev, qt6-l10n-tools, qt6-tools-dev, libxkbcommon-dev
+Standards-Version: 4.6.2
+
+Package: future-task-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Future Task Manager - System Performance Monitor
+ Conceived by Paulo Roberto Jentsch (Future Technology Informatica).
+ Lightweight C++ and Qt6 system monitor featuring real-time graphs for CPU,
+ logical processors, memory, disks, partitions, network, USB hot-plug,
+ Linux distribution and kernel version.

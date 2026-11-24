@@ -1,0 +1,15 @@
+build/
+build-*/
+obj-*/
+debian/.debhelper/
+debian/files
+debian/*.substvars
+debian/*.log
+debian/future-task-manager/
+*.deb
+*.dsc
+*.tar.xz
+*.tar.gz
+*.rpm
+*.txz
+*.log

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 23 Nov 2026 23:46:00 -0300
+Source: future-task-manager
+Binary: future-task-manager future-task-manager-dbgsym
+Architecture: riscv64
+Version: 1.1.0-1
+Distribution: trixie
+Urgency: medium
+Maintainer: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Changed-By: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Description:
+ future-task-manager - Future Task Manager - System Performance Monitor
+Changes:
+ future-task-manager (1.1.0-1) unstable; urgency=medium
+ .
+   * Release v1.1.0: suporte multi-linguagem (PT-BR, EN, ES), deteccao USB em tempo real (Hot-Plug) e suporte multi-arquitetura.
+Checksums-Sha1:
+ 0d35641836dd60473818ba63a54b8806034537f6 871224 future-task-manager-dbgsym_1.1.0-1_riscv64.deb
+ b180210a53f898d81ec7e6182a94efac7e1271f0 11344 future-task-manager_1.1.0-1_riscv64.buildinfo
+ 108a3cd452a6298616f45e0c8185121512bf6a22 69352 future-task-manager_1.1.0-1_riscv64.deb
+Checksums-Sha256:
+ 43d9d91cb27c1a08bd96ec99fe7fda47ce7ce21ad2f0b3b4737f833ba7c6e06f 871224 future-task-manager-dbgsym_1.1.0-1_riscv64.deb
+ 0acd0f1cabc4f654d9a50834a829034b079ed9c547a8ffc048b0042a3e73bdf0 11344 future-task-manager_1.1.0-1_riscv64.buildinfo
+ 9219f566c58aa90da915d9fed5bf7be7c17f72d41e43d6398705afd3a2da73ac 69352 future-task-manager_1.1.0-1_riscv64.deb
+Files:
+ 110e41132620026985041051df85da27 871224 debug optional future-task-manager-dbgsym_1.1.0-1_riscv64.deb
+ 2b2f17867c2a69ef3121347bbbcc9074 11344 utils optional future-task-manager_1.1.0-1_riscv64.buildinfo
+ f804d620e03e06e0bf8ded2d414bc56a 69352 utils optional future-task-manager_1.1.0-1_riscv64.deb

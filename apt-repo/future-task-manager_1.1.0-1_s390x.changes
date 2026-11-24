@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 23 Nov 2026 23:46:00 -0300
+Source: future-task-manager
+Binary: future-task-manager future-task-manager-dbgsym
+Architecture: s390x
+Version: 1.1.0-1
+Distribution: trixie
+Urgency: medium
+Maintainer: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Changed-By: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Description:
+ future-task-manager - Future Task Manager - System Performance Monitor
+Changes:
+ future-task-manager (1.1.0-1) unstable; urgency=medium
+ .
+   * Release v1.1.0: suporte multi-linguagem (PT-BR, EN, ES), deteccao USB em tempo real (Hot-Plug) e suporte multi-arquitetura.
+Checksums-Sha1:
+ eb4bc5c721db34d06b1d82395bf84a0a8aa87331 1070932 future-task-manager-dbgsym_1.1.0-1_s390x.deb
+ 765467a4d985bcad0d23ef48577c5fb617018761 11265 future-task-manager_1.1.0-1_s390x.buildinfo
+ 7ecedffa0f652c98955555d460a37f88c6dff57f 70436 future-task-manager_1.1.0-1_s390x.deb
+Checksums-Sha256:
+ b42e32e6b8b334a3d3702d37aafebd6bcacda1f311dc3d491e9bc3a59b6ae7d9 1070932 future-task-manager-dbgsym_1.1.0-1_s390x.deb
+ 4e49a83ecc1ce0fc6a1bd556320b8eea66f11fb3206cac45485dc809d5781659 11265 future-task-manager_1.1.0-1_s390x.buildinfo
+ 102ea5729e6b02ca85be01c5de3b8d79f88efb6dfe20ac71edc1e361231fd5bf 70436 future-task-manager_1.1.0-1_s390x.deb
+Files:
+ b4e8d7a00440eee40ef2ec1c8e7265c3 1070932 debug optional future-task-manager-dbgsym_1.1.0-1_s390x.deb
+ 962f152fe14e62ae3ca745e30ef0ecb8 11265 utils optional future-task-manager_1.1.0-1_s390x.buildinfo
+ 2bdd804ee547cd3b828ab33368400723 70436 utils optional future-task-manager_1.1.0-1_s390x.deb

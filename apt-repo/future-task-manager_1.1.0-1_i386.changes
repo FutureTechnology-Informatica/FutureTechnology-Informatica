@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 23 Nov 2026 23:46:00 -0300
+Source: future-task-manager
+Binary: future-task-manager future-task-manager-dbgsym
+Architecture: i386
+Version: 1.1.0-1
+Distribution: trixie
+Urgency: medium
+Maintainer: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Changed-By: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Description:
+ future-task-manager - Future Task Manager - System Performance Monitor
+Changes:
+ future-task-manager (1.1.0-1) unstable; urgency=medium
+ .
+   * Release v1.1.0: suporte multi-linguagem (PT-BR, EN, ES), deteccao USB em tempo real (Hot-Plug) e suporte multi-arquitetura.
+Checksums-Sha1:
+ 16f3257b2969177ae28b6562a80ed0c926cb487a 1055236 future-task-manager-dbgsym_1.1.0-1_i386.deb
+ dd418246ed7a8268db933eb6ab0d4b855ea09002 11364 future-task-manager_1.1.0-1_i386.buildinfo
+ fd40daa56453b6780bf5f9a9add8af62a6a0fc65 81708 future-task-manager_1.1.0-1_i386.deb
+Checksums-Sha256:
+ a82779ffde96eb4ccc86ceac83ca85497e705f441757935a3fd8152af5e8a63d 1055236 future-task-manager-dbgsym_1.1.0-1_i386.deb
+ 98052da8b19725330f72dcedb63be898952fd40af4d4fdbf03c66f969d722db7 11364 future-task-manager_1.1.0-1_i386.buildinfo
+ 625980696217296d574a41d76a97ed6747378852a012a24e873e9205beade12f 81708 future-task-manager_1.1.0-1_i386.deb
+Files:
+ 4b949be77f02e4d4f1bab11117a8c39c 1055236 debug optional future-task-manager-dbgsym_1.1.0-1_i386.deb
+ b4993028fabd1c0eb1441d7605de3d1c 11364 utils optional future-task-manager_1.1.0-1_i386.buildinfo
+ 50b044925f582df9ebe31b26ccd1e0ce 81708 utils optional future-task-manager_1.1.0-1_i386.deb

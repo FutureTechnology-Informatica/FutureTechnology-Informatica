@@ -1,0 +1,42 @@
+sbuild (Debian sbuild) 0.89.3+deb13u4 (28 December 2025) on MorroMachine.home
+
++==============================================================================+
+| future-task-manager 1.1.0-1 (amd64)          Tue, 24 Nov 2026 02:53:50 +0000 |
++==============================================================================+
+
+Package: future-task-manager
+Version: 1.1.0-1
+Source Version: 1.1.0-1
+Distribution: trixie
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+I: Unpacking /root/.cache/sbuild/trixie-amd64.tar.zst to /tmp/tmp.sbuild.RGKCcVerFQ...
+failed reading 512 bytes from /root/.cache/sbuild/trixie-amd64.tar.zst
+E: Error creating chroot session: skipping future-task-manager
+
++------------------------------------------------------------------------------+
+| Summary                                      Tue, 24 Nov 2026 02:54:02 +0000 |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Type: binary
+Build-Space: 0
+Build-Time: 0
+Distribution: trixie
+Fail-Stage: create-session
+Host Architecture: amd64
+Install-Time: 0
+Job: /root/future-task-manager/../future-task-manager_1.1.0-1.dsc
+Machine Architecture: amd64
+Package: future-task-manager
+Package-Time: 0
+Source-Version: 1.1.0-1
+Space: 0
+Status: failed
+Version: 1.1.0-1
+--------------------------------------------------------------------------------
+Finished at 2026-11-24T02:53:50Z
+Build needed 00:00:00, 0k disk space

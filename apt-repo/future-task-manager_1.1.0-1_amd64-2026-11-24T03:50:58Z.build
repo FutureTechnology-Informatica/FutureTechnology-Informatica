@@ -1,0 +1,60 @@
+sbuild (Debian sbuild) 0.89.3+deb13u4 (28 December 2025) on MorroMachine.home
+
++==============================================================================+
+| future-task-manager 1.1.0-1 (amd64)          Tue, 24 Nov 2026 03:50:58 +0000 |
++==============================================================================+
+
+Package: future-task-manager
+Version: 1.1.0-1
+Source Version: 1.1.0-1
+Distribution: trixie
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+I: Unpacking /home/domorro/.cache/sbuild/trixie-amd64.tar.zst to /home/domorro/tmp-sbuild/tmp.sbuild.3uOopkjN8N...
+I: Setting up the chroot...
+I: Creating chroot session...
+I: Setting up log color...
+I: Setting up apt archive...
+
++------------------------------------------------------------------------------+
+| Update chroot                                Tue, 24 Nov 2026 03:51:10 +0000 |
++------------------------------------------------------------------------------+
+
+Get:1 http://security.debian.org/debian-security trixie-security InRelease [43.4 kB]
+Get:2 http://deb.debian.org/debian trixie InRelease [140 kB]
+Get:3 http://security.debian.org/debian-security trixie-security/main amd64 Packages [309 kB]
+Get:4 http://deb.debian.org/debian trixie-updates InRelease [47.3 kB]
+Get:5 http://deb.debian.org/debian trixie/main amd64 Packages [9679 kB]
+E: ABORT: Received INT signal (requesting cleanup and shutdown)
+E: ABORT: Received INT signal (requesting cleanup and shutdown)
+E: Can't unlink /etc/apt/sources.list.d/sbuild-build-depends-archive.list: Interrupted system call
+rmdir: failed to remove '/home/domorro/tmp-sbuild/tmp.sbuild.3uOopkjN8N': Directory not empty
+unable to remove /home/domorro/tmp-sbuild/tmp.sbuild.3uOopkjN8N: Directory not empty
+E: apt-get update failed
+
++------------------------------------------------------------------------------+
+| Summary                                      Tue, 24 Nov 2026 03:51:19 +0000 |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Type: binary
+Build-Space: 0
+Build-Time: 0
+Distribution: trixie
+Fail-Stage: apt-get-update
+Host Architecture: amd64
+Install-Time: 0
+Job: /home/domorro/build-ftm/future-task-manager_1.1.0-1.dsc
+Machine Architecture: amd64
+Package: future-task-manager
+Package-Time: 0
+Source-Version: 1.1.0-1
+Space: 0
+Status: failed
+Version: 1.1.0-1
+--------------------------------------------------------------------------------
+Finished at 2026-11-24T03:50:58Z
+Build needed 00:00:00, 0k disk space
