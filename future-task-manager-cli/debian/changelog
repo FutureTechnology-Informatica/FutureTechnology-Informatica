@@ -1,0 +1,5 @@
+future-task-manager-cli (1.0.0-1) unstable; urgency=medium
+
+  * Initial release of Future Task Manager CLI with Braille charts and single-metric flags.
+
+ -- Paulo Roberto Jentsch <do_morro@hotmail.com>  Tue, 24 Nov 2026 17:26:00 -0300

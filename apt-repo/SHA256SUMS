@@ -5,6 +5,16 @@ c7099e0ca6366bcdbd0c569a223a33ec97c4154ce479c4fbd00d0f393667ba46  future-task-ma
 0109005f67e06a9bdcfc75163513960fe6c135aaa2533fe5b73f28987db4b50b  future-task-manager_1.1.0-1_ppc64el.deb
 9219f566c58aa90da915d9fed5bf7be7c17f72d41e43d6398705afd3a2da73ac  future-task-manager_1.1.0-1_riscv64.deb
 102ea5729e6b02ca85be01c5de3b8d79f88efb6dfe20ac71edc1e361231fd5bf  future-task-manager_1.1.0-1_s390x.deb
+cec8fb4adb250b90f5bda3663180f92ecfe0ae53e72a9642244d2bfde8f9b10b  future-task-manager-cli_1.0.0-1_amd64.deb
+f0d96068b464f5b7182ab57936d141a2ae5eb647f9828dbb346f6094f1b4016c  future-task-manager-cli_1.0.0-1_arm64.deb
+37fabed9b58da758cf984563f030e4325732f676a3c785e04b199eb03a2a148e  future-task-manager-cli_1.0.0-1_armhf.deb
+c47d7afa52cbdba28ff3c0d24fc961fa16e8ca4e6d33123ce8af2a6168563133  future-task-manager-cli_1.0.0-1_i386.deb
+dd2e7b04ee6cd3fd474c1cfc06a7e4e59552d5bb54fabdf58c9c1305d0527a5c  future-task-manager-cli_1.0.0-1_ppc64el.deb
+cac7dea1dd0f666ef0806c7b81c78ac72f998578e1ad529672c789017ec572c7  future-task-manager-cli_1.0.0-1_riscv64.deb
+6bb2fef3af0cf8b67c9126a945a3a76c6667480908191b92ecf8b068938ef5ea  future-task-manager-cli_1.0.0-1_s390x.deb
 81e2f759d464a7bf26c749ea19c1d6b2e99a1d3163b85c7942b147a2db1e00db  future-task-manager_1.1.0-1.dsc
+5553c9e0772b6edf0ed6ee47b2d0c9be0adb07f77558a989b2d985f7f9ce9a6c  future-task-manager-cli_1.0.0-1.dsc
 a333fffee467ff77d0a6fc63390b299381f7a035ca203efa7104b9916a090162  future-task-manager_1.1.0-1.debian.tar.xz
 cd4bfc8112b46fa7398cebc29087f4b4f11b6fce53b5fecc3d660682bb43f65f  future-task-manager_1.1.0.orig.tar.xz
+c1b960ec3d141b5ca0521932a572167e5129641f202d7f9f68be58166a7d9b8e  future-task-manager-cli_1.0.0-1.debian.tar.xz
+0def12869d81aecf01a109d41bc8fad452e3933642faefffb2397eba2c5fb63a  future-task-manager-cli_1.0.0.orig.tar.xz

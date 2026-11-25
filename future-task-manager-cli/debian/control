@@ -1,0 +1,15 @@
+Source: future-task-manager-cli
+Section: utils
+Priority: optional
+Maintainer: Paulo Roberto Jentsch <do_morro@hotmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, ninja-build, libncurses-dev
+Standards-Version: 4.6.2
+
+Package: future-task-manager-cli
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Future Task Manager CLI - Terminal System Performance Monitor
+ Conceived by Paulo Roberto Jentsch (Future Technology Informatica).
+ Lightweight C++ and ncursesw terminal monitor featuring Braille graphs for CPU,
+ logical processors, memory, disks, partitions, network, USB hot-plug,
+ Linux distribution and kernel version.

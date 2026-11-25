@@ -5,3 +5,11 @@
 9fead52376ad482c8e1f021e60c6cd92dc412e9aeb6ed26e9be42d6dae802939  future-task-manager-1.1.0-linux-ppc64el.tar.gz
 a4e5ff793f93b5b252cd8fc9f4844f60613d60c4fb2f5bf1ea361e1710a6069e  future-task-manager-1.1.0-linux-riscv64.tar.gz
 04ffd330b8bb937ec500c8ad67000d9d1fdefe7faab21d7944b5d85809975c86  future-task-manager-1.1.0-linux-s390x.tar.gz
+734df8bf71080a6e2138f9a22bc58cb42d078232e8a344062df38472ceaeabb2  future-task-manager-cli-1.0.0-linux-amd64.tar.gz
+91674de4acb31bb10a48a18ab122ac7bf6324914caa08c49ced07de68b7a7b51  future-task-manager-cli-1.0.0-linux-arm64.tar.gz
+7b90e5cd4185b0155600e015b47c9b6d7f280505bbdd4b1f430026b3a35896ec  future-task-manager-cli-1.0.0-linux-armhf.tar.gz
+7b6bcc582c1fd75d2db094f8712a6d9fdc7ecd43bb140c241439ca74acf13592  future-task-manager-cli-1.0.0-linux-i386.tar.gz
+51ddf3ed81de05d9ec3e87d9765bc09c1c9e22006aabfb698c3bfbdf647cbc5c  future-task-manager-cli-1.0.0-linux-ppc64el.tar.gz
+d21b15b32e6cb46104ca1b552f2a815e3926f0720524e193a799aee73958040b  future-task-manager-cli-1.0.0-linux-riscv64.tar.gz
+8b3071113078ee359b69cece6cda87aa80c9ed8d9fdd02d6d4b25ab033ecbd61  future-task-manager-cli-1.0.0-linux-s390x.tar.gz
+8b3071113078ee359b69cece6cda87aa80c9ed8d9fdd02d6d4b25ab033ecbd61  future-task-manager-cli-1.0.0-linux-.tar.gz

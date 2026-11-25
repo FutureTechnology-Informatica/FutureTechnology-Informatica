@@ -6,3 +6,10 @@ a9be3e02d4c85432b9fa97cff4cde561f1217d2c117c499a7a54cbf7cdeee0bb  future-task-ma
 473d8f1aa7326469d129e6efc25e8906e76c784b47f4ab399bcde4b6e9551eae  future-task-manager-1.1.0-2.s390x.rpm
 d26a40ca7360106b5049feafb052c44c76a052f874a8c6d41c542ee3a121d8e4  future-task-manager-1.1.0-2.x86_64.rpm
 f7fbbf9524c9a96dba9624b81c8945362f28dc882faaa208b29f6814d12a5e59  future-task-manager-1.1.0-linux-x86_64.rpm
+ee7d0fdbad6877cd823fa2c833918d24dfdced02255fc4a96ed6404ffb365fc6  future-task-manager-cli-1.0.0-2.aarch64.rpm
+03ca4d4f006250fbd2ef19ad9c1eaf9ba438f3218647ab212c18064688e3642b  future-task-manager-cli-1.0.0-2.armhf.rpm
+cfc94d1d49d6ebb29eeb90c0bdad5b14020d3854144e294c006536813ecf3ead  future-task-manager-cli-1.0.0-2.i386.rpm
+4486fe740b078c47964e07dd6b3f4771e8d77bff1a09e63777b2f8dd9d03f895  future-task-manager-cli-1.0.0-2.ppc64le.rpm
+6a9dd067cd42eda951621e8b86390d4031b3d23f7f7deb7ba284a77cb836f896  future-task-manager-cli-1.0.0-2.riscv64.rpm
+832967e3a9ca86002fcdd186494a104bf861b8f4350052176cf5cb2379fbe558  future-task-manager-cli-1.0.0-2.s390x.rpm
+81954675bf5b5077f0422d4b6d1866719071d78d674bcc977c9bfbc57f74f44d  future-task-manager-cli-1.0.0-2.x86_64.rpm
