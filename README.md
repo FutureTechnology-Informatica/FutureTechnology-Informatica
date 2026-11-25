@@ -10,7 +10,7 @@ Lightweight system performance monitoring tools for Linux, conceived and created
 
 ## Quick Installation (Debian / Ubuntu / Linux Mint / Raspberry Pi OS)
 ```bash
-echo "deb [trusted=yes allow-insecure=yes lang=none] https://futuretechnology-informatica.github.io/FutureTechnology-Informatica/apt-repo ./" | sudo tee /etc/apt/sources.list.d/future-technology.list
+echo "deb [trusted=yes lang=none] https://futuretechnology-informatica.github.io/FutureTechnology-Informatica/apt-repo ./" | sudo tee /etc/apt/sources.list.d/future-technology.list
 sudo apt update
 sudo apt install future-task-manager future-task-manager-cli
 ```
