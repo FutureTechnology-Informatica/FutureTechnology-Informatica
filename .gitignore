@@ -15,3 +15,4 @@ debian/future-task-manager-cli/
 !rpm-repo/*.rpm
 !slack-repo/*.txz
 !tarballs/*.tar.gz
+_CPack_Packages/

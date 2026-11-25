@@ -5,15 +5,53 @@
 Ferramentas leves de monitoramento de desempenho para Linux, idealizadas e criadas por **Paulo Roberto Jentsch** (**Future Technology Informática**) sob a licença **GPL-3.0**.
 
 ## Aplicativos
-* **Future Task Manager (GUI v1.1.0):** Monitor gráfico em C++17 e Qt 6 com gráficos em tempo real (CPU, núcleos lógicos, Memória, Swap, Caches, Discos físicos, partições individuais e Rede), detecção USB Hot-Plug, informações da distro/kernel, temas claro/escuro e troca dinâmica de idioma.
-* **Future Task Manager CLI (v1.0.0):** Monitor de terminal em C++17 e ncursesw com gráficos Braille Unicode suaves e filtros dedicados (`--only-cpu`, `--only-memory`, `--only-disk`, `--only-network`, `--interval`).
+* **Future Task Manager (GUI v1.1.0):** C++17 & Qt 6 graphical system monitor featuring real-time graphs (CPU, logical cores, Memory, Swap, Caches, Physical Disks, individual partitions, Network), USB hot-plug detection, Linux distribution/kernel info, light/dark themes, and dynamic language switching.
+* **Future Task Manager CLI (v1.0.0):** Pure C++17 & ncursesw terminal monitor with smooth Unicode Braille charts and single-metric flags (`--only-cpu`, `--only-memory`, `--only-disk`, `--only-network`, `--interval`).
 
-## Instalação Rápida (Debian / Ubuntu / Linux Mint / Raspberry Pi OS)
+## Instalação
+
+### Debian / Ubuntu / Linux Mint / Raspberry Pi OS (APT)
 ```bash
 echo "deb [trusted=yes lang=none] https://futuretechnology-informatica.github.io/FutureTechnology-Informatica/apt-repo ./" | sudo tee /etc/apt/sources.list.d/future-technology.list
 sudo apt update
 sudo apt install future-task-manager future-task-manager-cli
 ```
 
-## Suporte Multi-Arquitetura e Multi-Distro
-Pacotes prontos (`.deb`, `.rpm`, `.txz`, `.tar.gz`) e código-fonte (`.dsc`) estão disponíveis neste repositório para **7 arquiteturas**: `amd64`, `i386`, `arm64`, `armhf`, `riscv64`, `ppc64el` e `s390x`.
+### Fedora / RHEL / Rocky Linux / openSUSE (DNF / YUM)
+```bash
+cat << EOF | sudo tee /etc/yum.repos.d/future-technology.repo
+[future-technology]
+name=Future Technology Informatica
+baseurl=https://futuretechnology-informatica.github.io/FutureTechnology-Informatica/rpm-repo
+enabled=1
+gpgcheck=0
+EOF
+sudo dnf install future-task-manager future-task-manager-cli
+```
+
+### Slackware (`.txz`)
+Baixe o pacote correspondente à sua arquitetura em `slack-repo/` (conferindo `SHA256SUMS`) e instale com:
+```bash
+sudo installpkg future-task-manager-1.1.0-<arch>-1ft.txz
+sudo installpkg future-task-manager-cli-1.0.0-<arch>-1ft.txz
+```
+
+## Compilar do Código-Fonte (Arch, Gentoo, Void ou Builds Personalizados)
+**Dependências:** Compilador C++17 (`g++` ou `clang++`), `cmake`, `ninja`, `qt6-base` + `qt6-tools` (para a versão gráfica) e `ncurses` (para o CLI).
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/FutureTechnology-Informatica/FutureTechnology-Informatica.git
+cd FutureTechnology-Informatica
+
+# 2. Build & Install GUI Version
+cmake -S future-task-manager -B build-gui -G Ninja -DCMAKE_BUILD_TYPE=Release
+cmake --build build-gui && sudo cmake --install build-gui
+
+# 3. Build & Install CLI Version
+cmake -S future-task-manager-cli -B build-cli -G Ninja -DCMAKE_BUILD_TYPE=Release
+cmake --build build-cli && sudo cmake --install build-cli
+```
+
+## Suporte Multi-Arquitetura e Licença
+Pre-built packages and source packages (`.dsc`) are available for **7 architectures**: `amd64`, `i386`, `arm64`, `armhf`, `riscv64`, `ppc64el`, and `s390x`. Licensed under **GNU GPL-3.0**.
