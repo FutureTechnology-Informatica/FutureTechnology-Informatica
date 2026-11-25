@@ -10,7 +10,7 @@ Ferramentas leves de monitoramento de desempenho para Linux, idealizadas e criad
 
 ## Instalação Rápida (Debian / Ubuntu / Linux Mint / Raspberry Pi OS)
 ```bash
-echo "deb [trusted=yes lang=none] lang=none] ./" | sudo tee /etc/apt/sources.list.d/future-technology.list
+echo "deb [trusted=yes allow-insecure=yes lang=none] https://futuretechnology-informatica.github.io/FutureTechnology-Informatica/apt-repo ./" | sudo tee /etc/apt/sources.list.d/future-technology.list
 sudo apt update
 sudo apt install future-task-manager future-task-manager-cli
 ```
